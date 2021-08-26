@@ -1,0 +1,144 @@
+<header>
+    <div class="hd-style1">
+      <div class="mnmenu-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 nav-menu">
+              <div class="col-md-3">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img src="../../assets/img/logo2.png" alt=""
+                  /></a>
+                </div>
+              </div>
+  
+              <div class="col-md-3 pull-right">
+                <div class="menu">
+                  <div class="menu-icon">
+                    <div class="site-search">
+                      <i class="fa fa-user user-bx"></i>
+                      <span>Super Admin <i class="fa fa-angle-down"></i></span>
+                      <div class="search-forum">
+                        <div class="search-dropdown">
+                          <ul>
+                            <li>
+                              <a href="index.html"
+                                ><i class="fa fa-sign-out"></i> Sign Out</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="blog-classic-sec pt-50 pb-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-right">
+            <div class="row">
+              <div
+                class="panel-group"
+                id="accordion_reg"
+                role="tablist"
+                aria-multiselectable="true"
+              >
+                <div class="panel panel-default panel-total">
+                  <div
+                    class="panel-heading right-panl-bx"
+                    role="tab"
+                    id="headingOne_reg"
+                  >
+                    <h4 class="panel-title">
+                      <a
+                        role="button"
+                        href="javascript:void(0)"
+                        aria-expanded="true"
+                        aria-controls="collapseOne_reg"
+                        >Super Admin
+                      </a>
+                    </h4>
+                  </div>
+                  <div
+                    id="collapseOne_reg"
+                    class="panel-collapse collapse in"
+                    role="tabpanel"
+                    aria-labelledby="headingOne_reg"
+                  >
+                    <div class="panel-body">
+                      <div class="searchs-links">
+                        <a [routerLink]="['/home']" routerLinkActive="router-link-active"  >Students <i class="fa fa-angle-right"></i></a> 
+                      <a [routerLink]="['/SupervisorList']" routerLinkActive="router-link-active"  >Supervisors<i class="fa fa-angle-right"></i></a>
+                      <a [routerLink]="['/topicList']" routerLinkActive="router-link-active" class="active-search" >Topics<i class="fa fa-angle-right"></i></a>
+                      <a [routerLink]="['/SuggestedTopic']" routerLinkActive="router-link-active" >Suggested Topics<i class="fa fa-angle-right"></i></a>
+                      <a [routerLink]="['/algorthim']" routerLinkActive="router-link-active" >Algorithm<i class="fa fa-angle-right"></i></a>
+                      <a [routerLink]="['/settings']" routerLinkActive="router-link-active" >Settings<i class="fa fa-angle-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-left">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-top">
+                <h2>Topic List</h2>
+                <a
+                  [routerLink]="['/addtopic']"
+                  routerLinkActive="router-link-active"
+                  >Create Topic <i class="fa fa-plus"></i>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-serch">
+                <div class="contact-field">
+                  <div class="table-area">
+                    <table class="table table-bordered res-tabel">
+                      <thead>
+                        <tr>
+                            <th>Topic Name</th>
+                            <th>Topic Discription</th>
+                            <th>Add By</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let topic of topicList">
+                          <td>{{topic.name}}</td>
+                          <td>{{topic.descrption}}</td>
+                          <td>{{topic.user.fullName}}</td>
+                          <!-- <td>
+                            <a href="edit-preference.html">View Preference</a>
+                          </td> -->
+                          <!-- <td>
+                            <a href="editprofile.html"
+                              ><i class="fa fa-edit"></i
+                            ></a>
+                            <a href="#"><i class="fa fa-trash"></i></a>
+                          </td> -->
+                        </tr>
+  
+                        <!--  -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,34 @@
+<body class="lgn-bg">
+  <div class="login-form">
+      <form #userForm="ngForm" (ngSubmit)="signin()" novalidate>
+          <div class="avatar">
+              <img src="../../assets/img/login-logo.png" alt="">
+          </div>
+          <h2 class="text-center">Member Login</h2>   
+          <div class="form-group">
+            <input type="text" class="form-control"
+            placeholder="username" [(ngModel)]="user.username" #username="ngModel" required
+            [class.is-invalid]="username.invalid && username.touched" name="username" />
+          <div *ngIf="username.errors && (username.invalid || username.touched)">
+            <small class="text-danger" *ngIf="username.touched && username.errors.required">User name is required</small>
+          </div>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" placeholder="Enter Password" [(ngModel)]="user.password"
+            #password="ngModel" required [class.is-invalid]="password.invalid && password.touched"
+            name="password" />
+            <div *ngIf="password.errors && (password.invalid || password.touched)">
+                <small class="text-danger" *ngIf="password.touched && password.errors.required">Password name is required</small>
+              </div>
+          </div>        
+          <div class="form-group">
+            <div class="form-group text-center">
+                <button  type="submit" class="btn btn-success btn-block" [disabled]="userForm.form.invalid">
+                    SIGN IN
+                  </button>
+          </div>
+        </div>
+      </form>
+      </div>
+      </body>
+  

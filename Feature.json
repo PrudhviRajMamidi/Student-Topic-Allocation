@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "611a77135359601cc8e62a11"
+  },
+  "name": "Student",
+  "description": "Access for Students",
+  "isEnabled": true,
+  "_class": "com.topicallocation.topic.model.Feature"
+},{
+  "_id": {
+    "$oid": "611a77135359601cc8e62a12"
+  },
+  "name": "Supervisor",
+  "description": "Access for Supervisor",
+  "isEnabled": false,
+  "_class": "com.topicallocation.topic.model.Feature"
+}]

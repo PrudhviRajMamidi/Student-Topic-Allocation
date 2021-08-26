@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <body>
+    <header>
+      <div class="hd-style1">
+        <div class="mnmenu-sec">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 nav-menu">
+                <div class="col-md-3">
+                  <div class="logo">
+                    <a href="index.html"
+                      ><img src="../../assets/img/logo2.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+
+                <div class="col-md-3 pull-right">
+                  <div class="menu">
+                    <div class="menu-icon">
+                      <div class="site-search">
+                        <i class="fa fa-user user-bx"></i>
+                        <span
+                          >{{ userName }} <i class="fa fa-angle-down"></i
+                        ></span>
+                        <div class="search-forum">
+                          <div class="search-dropdown">
+                            <ul>
+                              <li>
+                                <a href="index.html"
+                                  ><i class="fa fa-sign-out"></i> Sign Out</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="blog-classic-sec pt-50 pb-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-left">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-top">
+                  <h2>Preferences</h2>
+                  <a
+                  [routerLink]="['/studentpreferenc']"
+                  routerLinkActive="router-link-active"
+                  >add preference <i class="fa fa-plus"></i>
+                </a>
+                </div>
+              </div>
+              <div class="row" >
+                <div class="service-sec pt-20 pb-20">
+                  <div class="service-item">
+                    <div class="col-lg-6 col-md-16 col-sm-12 col-xs-12" *ngFor="let  preference of preferenceList">
+                      <div class="service-inner">
+                        <div class="service-details">
+                          <h2>{{preference.preference}} Preference</h2>
+                          <p class="content-align-left">{{preference.topic.name}}</p>
+                          <p class="content-align-left">{{preference.topic.descrption}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

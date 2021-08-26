@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "60fce6af55fc8b253726c404"
+  },
+  "roleId": 1,
+  "name": "ADMIN",
+  "displayName": "Admin",
+  "_class": "com.topicallocation.topic.model.Role"
+},{
+  "_id": {
+    "$oid": "60fce6b055fc8b253726c405"
+  },
+  "roleId": 2,
+  "name": "STUDENT",
+  "displayName": "Student",
+  "_class": "com.topicallocation.topic.model.Role"
+},{
+  "_id": {
+    "$oid": "60fce6b055fc8b253726c406"
+  },
+  "roleId": 3,
+  "name": "SUPERVISOR",
+  "displayName": "Supervisor",
+  "_class": "com.topicallocation.topic.model.Role"
+}]

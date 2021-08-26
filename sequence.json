@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "60fce6b055fc8b253726c408"
+  },
+  "name": "UserId",
+  "value": 3,
+  "_class": "com.topicallocation.topic.model.Sequence"
+},{
+  "_id": {
+    "$oid": "60fce6b055fc8b253726c409"
+  },
+  "name": "TopicId",
+  "value": 7,
+  "_class": "com.topicallocation.topic.model.Sequence"
+},{
+  "_id": {
+    "$oid": "60fce6b055fc8b253726c40a"
+  },
+  "name": "FeatureId",
+  "value": 0,
+  "_class": "com.topicallocation.topic.model.Sequence"
+}]

@@ -1,0 +1,226 @@
+[{
+  "_id": {
+    "$oid": "6103c3c441d01a2e3a043ecc"
+  },
+  "topicId": "UFL-T0007",
+  "name": "Web application to allocate topics, supervisors and groups",
+  "descrption": "Create a web application to allocate topics for group discussion to students by grouping them and allocating them a supervisor ",
+  "isApproved": true,
+  "user": {
+    "_id": {
+      "$oid": "6101863b7238f975f1c27419"
+    },
+    "firstName": "Prudhvi Raj  ",
+    "lastName": "Mamidi",
+    "email": "prudhvirajm97@gmail.com",
+    "username": "PM844708",
+    "password": "217780",
+    "fullName": "Prudhvi Raj   Mamidi",
+    "role": {
+      "_id": {
+        "$oid": "60fce6af55fc8b253726c404"
+      },
+      "roleId": 1,
+      "name": "ADMIN",
+      "displayName": "Admin"
+    },
+    "isAccountNonExpired": true,
+    "isAccountNonLocked": true,
+    "isEnabled": true,
+    "userId": "UFL-U0004"
+  },
+  "_class": "com.topicallocation.topic.model.Topic"
+},{
+  "_id": {
+    "$oid": "610d1359f72c766856153bf2"
+  },
+  "topicId": "UFL-T0008",
+  "name": "Yoga Class Planner",
+  "descrption": "Develop a web application to allocate yoga classes based on the preferences and health inputs given by the user. ",
+  "isApproved": true,
+  "user": {
+    "_id": {
+      "$oid": "6101863b7238f975f1c27419"
+    },
+    "firstName": "Prudhvi Raj  ",
+    "lastName": "Mamidi",
+    "email": "prudhvirajm97@gmail.com",
+    "username": "PM844708",
+    "password": "217780",
+    "fullName": "Prudhvi Raj   Mamidi",
+    "role": {
+      "_id": {
+        "$oid": "60fce6af55fc8b253726c404"
+      },
+      "roleId": 1,
+      "name": "ADMIN",
+      "displayName": "Admin"
+    },
+    "isAccountNonExpired": true,
+    "isAccountNonLocked": true,
+    "isEnabled": true,
+    "userId": "UFL-U0004"
+  },
+  "_class": "com.topicallocation.topic.model.Topic"
+},{
+  "_id": {
+    "$oid": "610d140df72c766856153bf3"
+  },
+  "topicId": "UFL-T0009",
+  "name": "A Smart Home Solution",
+  "descrption": "Develop a mobile application to control all the smart home appliances in the via a smart phone. ",
+  "isApproved": true,
+  "user": {
+    "_id": {
+      "$oid": "6101863b7238f975f1c27419"
+    },
+    "firstName": "Prudhvi Raj  ",
+    "lastName": "Mamidi",
+    "email": "prudhvirajm97@gmail.com",
+    "username": "PM844708",
+    "password": "217780",
+    "fullName": "Prudhvi Raj   Mamidi",
+    "role": {
+      "_id": {
+        "$oid": "60fce6af55fc8b253726c404"
+      },
+      "roleId": 1,
+      "name": "ADMIN",
+      "displayName": "Admin"
+    },
+    "isAccountNonExpired": true,
+    "isAccountNonLocked": true,
+    "isEnabled": true,
+    "userId": "UFL-U0004"
+  },
+  "_class": "com.topicallocation.topic.model.Topic"
+},{
+  "_id": {
+    "$oid": "610d148ef72c766856153bf4"
+  },
+  "topicId": "UFL-T00010",
+  "name": "Ubiquitous Music Player App",
+  "descrption": "Develop a music player mobile application for smart phones. ",
+  "isApproved": true,
+  "user": {
+    "_id": {
+      "$oid": "6101863b7238f975f1c27419"
+    },
+    "firstName": "Prudhvi Raj  ",
+    "lastName": "Mamidi",
+    "email": "prudhvirajm97@gmail.com",
+    "username": "PM844708",
+    "password": "217780",
+    "fullName": "Prudhvi Raj   Mamidi",
+    "role": {
+      "_id": {
+        "$oid": "60fce6af55fc8b253726c404"
+      },
+      "roleId": 1,
+      "name": "ADMIN",
+      "displayName": "Admin"
+    },
+    "isAccountNonExpired": true,
+    "isAccountNonLocked": true,
+    "isEnabled": true,
+    "userId": "UFL-U0004"
+  },
+  "_class": "com.topicallocation.topic.model.Topic"
+},{
+  "_id": {
+    "$oid": "610d14daf72c766856153bf5"
+  },
+  "topicId": "UFL-T00011",
+  "name": "Placements Management Web Application",
+  "descrption": "Develop a web application to manage the placements information of different students.",
+  "isApproved": true,
+  "user": {
+    "_id": {
+      "$oid": "6101863b7238f975f1c27419"
+    },
+    "firstName": "Prudhvi Raj  ",
+    "lastName": "Mamidi",
+    "email": "prudhvirajm97@gmail.com",
+    "username": "PM844708",
+    "password": "217780",
+    "fullName": "Prudhvi Raj   Mamidi",
+    "role": {
+      "_id": {
+        "$oid": "60fce6af55fc8b253726c404"
+      },
+      "roleId": 1,
+      "name": "ADMIN",
+      "displayName": "Admin"
+    },
+    "isAccountNonExpired": true,
+    "isAccountNonLocked": true,
+    "isEnabled": true,
+    "userId": "UFL-U0004"
+  },
+  "_class": "com.topicallocation.topic.model.Topic"
+},{
+  "_id": {
+    "$oid": "610d150ef72c766856153bf6"
+  },
+  "topicId": "UFL-T00012",
+  "name": "An online tool to manage pension benefits",
+  "descrption": "Develop a web application to manage the pension benefits.",
+  "isApproved": true,
+  "user": {
+    "_id": {
+      "$oid": "6101863b7238f975f1c27419"
+    },
+    "firstName": "Prudhvi Raj  ",
+    "lastName": "Mamidi",
+    "email": "prudhvirajm97@gmail.com",
+    "username": "PM844708",
+    "password": "217780",
+    "fullName": "Prudhvi Raj   Mamidi",
+    "role": {
+      "_id": {
+        "$oid": "60fce6af55fc8b253726c404"
+      },
+      "roleId": 1,
+      "name": "ADMIN",
+      "displayName": "Admin"
+    },
+    "isAccountNonExpired": true,
+    "isAccountNonLocked": true,
+    "isEnabled": true,
+    "userId": "UFL-U0004"
+  },
+  "_class": "com.topicallocation.topic.model.Topic"
+},{
+  "_id": {
+    "$oid": "6115929756040549aa8b1a66"
+  },
+  "topicId": "UFL-T00013",
+  "name": "Web Application to download E-Books",
+  "descrption": "Develop a web application to download E-Books from the existing digital library along with suggestions system from previous visits.",
+  "isApproved": true,
+  "user": {
+    "_id": {
+      "$oid": "610d1037f72c766856153bf1"
+    },
+    "firstName": "Srikar ",
+    "lastName": "Gaddipati",
+    "email": "srikargaddipati@gmail.com",
+    "username": "SG279343",
+    "password": "061663",
+    "fullName": "Srikar  Gaddipati",
+    "role": {
+      "_id": {
+        "$oid": "60fce6b055fc8b253726c406"
+      },
+      "roleId": 3,
+      "name": "SUPERVISOR",
+      "displayName": "Supervisor"
+    },
+    "mobile": "9874652356",
+    "isAccountNonExpired": true,
+    "isAccountNonLocked": true,
+    "isEnabled": true,
+    "userId": "UFL-U0008"
+  },
+  "_class": "com.topicallocation.topic.model.Topic"
+}]

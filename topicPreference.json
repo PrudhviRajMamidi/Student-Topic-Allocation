@@ -1,0 +1,463 @@
+[{
+  "_id": {
+    "$oid": "61155c0f56040549aa8b1a5e"
+  },
+  "topicId": "6103c3c441d01a2e3a043ecc",
+  "userId": "UFL-U0006",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-12T17:36:15.014Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "61155c0f56040549aa8b1a5f"
+  },
+  "topicId": "610d1359f72c766856153bf2",
+  "userId": "UFL-U0006",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-12T17:36:15.016Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "61155c0f56040549aa8b1a60"
+  },
+  "topicId": "610d148ef72c766856153bf4",
+  "userId": "UFL-U0006",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-12T17:36:15.017Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "61155c0f56040549aa8b1a61"
+  },
+  "topicId": "610d140df72c766856153bf3",
+  "userId": "UFL-U0006",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-12T17:36:15.018Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "61155c4756040549aa8b1a62"
+  },
+  "topicId": "6103c3c441d01a2e3a043ecc",
+  "userId": "UFL-U0008",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-12T17:37:11.846Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "61155c4756040549aa8b1a63"
+  },
+  "topicId": "610d1359f72c766856153bf2",
+  "userId": "UFL-U0008",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-12T17:37:11.847Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "61155c4756040549aa8b1a64"
+  },
+  "topicId": "610d140df72c766856153bf3",
+  "userId": "UFL-U0008",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-12T17:37:11.847Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "61155c4756040549aa8b1a65"
+  },
+  "topicId": "610d148ef72c766856153bf4",
+  "userId": "UFL-U0008",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-12T17:37:11.848Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611aaa1aa69c834577bacad9"
+  },
+  "topicId": "611aa989a69c834577bacad8",
+  "userId": "UFL-U0009",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-16T18:10:34.419Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611aaa1aa69c834577bacadb"
+  },
+  "topicId": "6103c3c441d01a2e3a043ecc",
+  "userId": "UFL-U0009",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-16T18:10:34.422Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611aaa1aa69c834577bacadc"
+  },
+  "topicId": "610d14daf72c766856153bf5",
+  "userId": "UFL-U0009",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-16T18:10:34.425Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "610d2c122cbe44121bf1817c"
+  },
+  "topicId": "60feef321a494f769f84df77",
+  "userId": "UFL-U00012",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-06T12:33:22.601Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "610d2c122cbe44121bf1817d"
+  },
+  "topicId": "60feef471a494f769f84df78",
+  "userId": "UFL-U00012",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-06T12:33:22.603Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "610d2c122cbe44121bf1817e"
+  },
+  "topicId": "60feef531a494f769f84df79",
+  "userId": "UFL-U00012",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-06T12:33:22.605Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "610e20e55d070a22d62f9ca4"
+  },
+  "topicId": "60fd6a650beb7736ea39a862",
+  "userId": "UFL-U0007",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-07T05:57:57.126Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "610e20e55d070a22d62f9ca5"
+  },
+  "topicId": "60feef321a494f769f84df77",
+  "userId": "UFL-U0007",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-07T05:57:57.129Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "610e20e55d070a22d62f9ca6"
+  },
+  "topicId": "60feef471a494f769f84df78",
+  "userId": "UFL-U0007",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-07T05:57:57.131Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "610e20e55d070a22d62f9ca7"
+  },
+  "topicId": "60feef531a494f769f84df79",
+  "userId": "UFL-U0007",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-07T05:57:57.135Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3761c25c8a29a929ab4b"
+  },
+  "topicId": "60feef321a494f769f84df77",
+  "userId": "UFL-U00013",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-17T04:13:21.121Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3761c25c8a29a929ab4c"
+  },
+  "topicId": "60feef531a494f769f84df79",
+  "userId": "UFL-U00013",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-17T04:13:21.123Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3761c25c8a29a929ab4d"
+  },
+  "topicId": "610d4e562cbe44121bf1817f",
+  "userId": "UFL-U00013",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-17T04:13:21.126Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3761c25c8a29a929ab4e"
+  },
+  "topicId": "60feef5d1a494f769f84df7a",
+  "userId": "UFL-U00013",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-17T04:13:21.128Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3799c25c8a29a929ab4f"
+  },
+  "topicId": "60feef321a494f769f84df77",
+  "userId": "UFL-U00014",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-17T04:14:17.885Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3799c25c8a29a929ab50"
+  },
+  "topicId": "60feef471a494f769f84df78",
+  "userId": "UFL-U00014",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-17T04:14:17.888Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3799c25c8a29a929ab51"
+  },
+  "topicId": "60feef5d1a494f769f84df7a",
+  "userId": "UFL-U00014",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-17T04:14:17.891Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3799c25c8a29a929ab52"
+  },
+  "topicId": "60fd6a650beb7736ea39a862",
+  "userId": "UFL-U00014",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-17T04:14:17.894Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b37c5c25c8a29a929ab53"
+  },
+  "topicId": "60feef321a494f769f84df77",
+  "userId": "UFL-U00015",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-17T04:15:01.587Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b37c5c25c8a29a929ab54"
+  },
+  "topicId": "60feef531a494f769f84df79",
+  "userId": "UFL-U00015",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-17T04:15:01.589Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b37c5c25c8a29a929ab55"
+  },
+  "topicId": "60feef5d1a494f769f84df7a",
+  "userId": "UFL-U00015",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-17T04:15:01.590Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b37c5c25c8a29a929ab56"
+  },
+  "topicId": "60fd6a650beb7736ea39a862",
+  "userId": "UFL-U00015",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-17T04:15:01.591Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b37e9c25c8a29a929ab57"
+  },
+  "topicId": "60feef321a494f769f84df77",
+  "userId": "UFL-U00016",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-17T04:15:37.628Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b37e9c25c8a29a929ab58"
+  },
+  "topicId": "60feef531a494f769f84df79",
+  "userId": "UFL-U00016",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-17T04:15:37.629Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b37e9c25c8a29a929ab59"
+  },
+  "topicId": "60feef5d1a494f769f84df7a",
+  "userId": "UFL-U00016",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-17T04:15:37.632Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b37e9c25c8a29a929ab5a"
+  },
+  "topicId": "60fd6a650beb7736ea39a862",
+  "userId": "UFL-U00016",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-17T04:15:37.634Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3813c25c8a29a929ab5b"
+  },
+  "topicId": "60feef321a494f769f84df77",
+  "userId": "UFL-U00017",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-17T04:16:19.305Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3813c25c8a29a929ab5c"
+  },
+  "topicId": "610d4e562cbe44121bf1817f",
+  "userId": "UFL-U00017",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-17T04:16:19.307Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3813c25c8a29a929ab5d"
+  },
+  "topicId": "60feef471a494f769f84df78",
+  "userId": "UFL-U00017",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-17T04:16:19.309Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "611b3813c25c8a29a929ab5e"
+  },
+  "topicId": "60fd6a650beb7736ea39a862",
+  "userId": "UFL-U00017",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-17T04:16:19.314Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "6124dc0227e2f534b7bb06ee"
+  },
+  "topicId": "6103c3c441d01a2e3a043ecc",
+  "userId": "UFL-U0009",
+  "preference": 1,
+  "date": {
+    "$date": "2021-08-24T11:46:10.021Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "6124dc0227e2f534b7bb06ef"
+  },
+  "topicId": "610d1359f72c766856153bf2",
+  "userId": "UFL-U0009",
+  "preference": 2,
+  "date": {
+    "$date": "2021-08-24T11:46:10.099Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "6124dc0227e2f534b7bb06f0"
+  },
+  "topicId": "610d140df72c766856153bf3",
+  "userId": "UFL-U0009",
+  "preference": 3,
+  "date": {
+    "$date": "2021-08-24T11:46:10.102Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+},{
+  "_id": {
+    "$oid": "6124dc0227e2f534b7bb06f1"
+  },
+  "topicId": "610d148ef72c766856153bf4",
+  "userId": "UFL-U0009",
+  "preference": 4,
+  "date": {
+    "$date": "2021-08-24T11:46:10.103Z"
+  },
+  "_class": "com.topicallocation.topic.model.TopicPreference"
+}]

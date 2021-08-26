@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "60fce6b055fc8b253726c407"
+  },
+  "firstName": "raj  shekar reddy ",
+  "lastName": "Pylla",
+  "email": "paillaRajashekar@gmail.com",
+  "role": {
+    "name": "STUDENT"
+  },
+  "mobile": "9705080118",
+  "_class": "com.topicallocation.topic.model.User"
+},{
+  "_id": {
+    "$oid": "60fce9601bc08a32e0dadf14"
+  },
+  "firstName": "raj  shekar reddy test",
+  "lastName": "Pylla",
+  "email": "paillaRajashekar@gmail.com",
+  "username": "rP256509",
+  "password": "334601",
+  "fullName": "raj  shekar reddy test Pylla",
+  "role": {
+    "_id": {
+      "$oid": "60fce6b055fc8b253726c405"
+    },
+    "roleId": 2,
+    "name": "STUDENT",
+    "displayName": "Student"
+  },
+  "mobile": "9705080118",
+  "isAccountNonExpired": true,
+  "isAccountNonLocked": true,
+  "isEnabled": true,
+  "userId": "UFL-U0000",
+  "_class": "com.topicallocation.topic.model.User"
+},{
+  "_id": {
+    "$oid": "60fceab804ef3c1c0f60235f"
+  },
+  "firstName": "raj",
+  "lastName": "Pylla",
+  "email": "paillaRajashekar@gmail.com",
+  "username": "RP147369",
+  "password": "013414",
+  "fullName": "raj Pylla",
+  "role": {
+    "_id": {
+      "$oid": "60fce6b055fc8b253726c405"
+    },
+    "roleId": 2,
+    "name": "STUDENT",
+    "displayName": "Student"
+  },
+  "mobile": "9705080118",
+  "isAccountNonExpired": true,
+  "isAccountNonLocked": true,
+  "isEnabled": true,
+  "userId": "UFL-U0001",
+  "_class": "com.topicallocation.topic.model.User"
+},{
+  "_id": {
+    "$oid": "60fcecd304ef3c1c0f602360"
+  },
+  "firstName": "test",
+  "lastName": "test",
+  "email": "test@gmail.com",
+  "username": "TT085361",
+  "password": "093066",
+  "fullName": "test test",
+  "role": {
+    "_id": {
+      "$oid": "60fce6b055fc8b253726c406"
+    },
+    "roleId": 3,
+    "name": "SUPERVISOR",
+    "displayName": "Supervisor"
+  },
+  "mobile": "9705080118",
+  "isAccountNonExpired": true,
+  "isAccountNonLocked": true,
+  "isEnabled": true,
+  "userId": "UFL-U0002",
+  "_class": "com.topicallocation.topic.model.User"
+}]

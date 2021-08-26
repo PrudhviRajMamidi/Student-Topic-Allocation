@@ -1,0 +1,163 @@
+<header>
+  <div class="hd-style1">
+    <div class="mnmenu-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 nav-menu">
+            <div class="col-md-3">
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="../../assets/img/logo2.png" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div class="col-md-3 pull-right">
+              <div class="menu">
+                <div class="menu-icon">
+                  <div class="site-search">
+                    <i class="fa fa-user user-bx"></i>
+                    <span>Student <i class="fa fa-angle-down"></i></span>
+                    <div class="search-forum">
+                      <div class="search-dropdown">
+                        <ul>
+                          <li>
+                            <a href="index.html"
+                              ><i class="fa fa-sign-out"></i> Sign Out</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <div class="blog-classic-sec pt-50 pb-50">
+    <form #studentPreference="ngForm" (ngSubmit)="saveStudentPreference()" novalidate>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 side-left">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-top">
+                <h2>Student Preference </h2>
+              </div>
+            </div>
+             <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-serch">
+              <div class="contact-field">
+                <div class="frm">
+                  <div class="col-lg-12 col-md-13 col-xs-12 col-sm-12">
+                    <div class="single-input-field">
+                      <label>First Preference</label>
+                      <select id="type" class="form-control custom-select" name="Topic1" [(ngModel)]="topic1" (change)="selectChange1()"
+                        #Topic1="ngModel" required [class.is-invalid]="Topic1.invalid && Topic1.touched">
+                        <option *ngFor="let topic of topicList" [ngValue]="topic">
+                          {{ topic.name }}
+                        </option>
+                      </select>
+                      
+                      <div *ngIf="Topic1.invalid && Topic1.touched">
+                        <small class="text-danger" *ngIf="Topic1.touched && Topic1.errors.required">Preference one  is
+                          required</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <div class="single-input-field">
+                      <label>Second Preference</label>
+                      <select id="type" class="form-control custom-select" name="Topic2" [(ngModel)]="topic2" (change)="selectChange2()"
+                      #Topic2="ngModel" required [class.is-invalid]="Topic2.invalid && Topic2.touched">
+                      <option *ngFor="let second of topicList" [ngValue]="second">
+                        {{ second.name }}
+                      </option>
+                    </select>
+                    <div *ngIf="Topic2.invalid && Topic2.touched">
+                      <small class="text-danger" *ngIf="Topic2.touched && Topic2.errors.required">second Preference  is
+                        required</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <div class="single-input-field">
+                      <label>Third  Preference</label>
+                      <select id="type" class="form-control custom-select" (change)="selectChange3()" name="Topic3" [(ngModel)]="topic3" 
+                      #Topic3="ngModel" required [class.is-invalid]="Topic3.invalid && Topic3.touched">
+                      <option *ngFor="let third of topicList" [ngValue]="third">
+                        {{ third.name }}
+                      </option>
+                    </select>
+                    <div *ngIf="Topic3.invalid && Topic3.touched">
+                      <small class="text-danger" *ngIf="Topic3.touched && Topic3.errors.required">Third Preference  is
+                        required</small>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <div class="single-input-field">
+                      <label>Fourth Preference</label>
+                      <select id="type" class="form-control custom-select" (change)="selectChange4()" name="Topic4" [(ngModel)]="topic4"
+                      #Topic4="ngModel" required [class.is-invalid]="Topic4.invalid && Topic4.touched">
+                      <option *ngFor="let fourth of topicList" [ngValue]="fourth">
+                        {{ fourth.name }}
+                      </option>
+                    </select>
+                    <div *ngIf="Topic4.invalid && Topic4.touched">
+                      <small class="text-danger" *ngIf="Topic4.touched && Topic4.errors.required">Fourth Preference  is
+                        required</small>
+                    </div>
+                    </div>
+                  </div>
+                  
+               
+                  <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 btm-box-marg pull-right">
+                    <div class="row">
+                      <div class="pull-right sub-serch-btn"> <button type="submit" class="btn btn-success btn-block" [disabled]="studentPreference.form.invalid">Submit</button> </div>
+                    </div>
+                    <!-- <div class="row">
+                      <div class="pull-right sub-serch-btn"> <button type="submit" class="btn btn-success btn-block" [disabled]="studentPreference.form.invalid">Edit</button> </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+            <!----------------------creeate folder popup------------------------------->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content bdy-cnt">
+                  <button type="button" class="close cls-btn" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label>Title</label>
+                        <input type="" class="form-control pop-input"   placeholder=" ">
+                      </div>
+                      <div class="form-group">
+                        <label>Discription</label>
+                        <textarea type="" class="form-control pop-textarea"  placeholder=" "></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary pup-btn">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </form>
+  </div>
